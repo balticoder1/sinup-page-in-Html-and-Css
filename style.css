@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,#3ed8ff,#72d3aa)
+}
+
+.iner-box {
+    width: 350px;
+    height: 400px;
+     margin:0 auto; /*  to aling the page on center  */
+     position: relative;
+    top: 30%;
+    transform: translatey(-40%);
+    padding: 20px 40px;
+    
+    /* background: linear-gradient(to top left,#ffffff,#d4f0fc); */
+    border-radius: 10px;
+    box-shadow:4px 9px 9px #1f0f3dea ;
+    z-index: 2;
+    backdrop-filter:blur(15px);
+}
+.singup-header {
+    text-align: center;
+}
+
+.singup-header h1 {
+    font-size: 2.6rem;
+    color: rgb(48, 41, 41);
+   
+}
+.singup-header p {
+    font-size: .8rem;
+    color: #555;
+}
+
+.singup-body {
+    margin: 20px 0 ; 
+    /* text-align: center; */
+
+}
+.singup-body p label {
+    display: block;
+    font-weight: bold;
+    margin: 8px;
+}
+.singup-body p input {
+    width: 100%;
+    padding: 7px;
+    border: 2px solid rgb(102, 115, 116);
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+.singup-body p input[type="submit"] {
+    background-color: #3498db;
+}
+
+#submit{
+    background-color: #2b82b4;
+    border: none;
+    color: white;
+    cursor: pointer;
+   margin: 5px;
+
+}
+#submit:hover{
+    background-color:#1f5474 ;
+}
+
+.singup-footer {
+    color: #414849;
+    text-align: center;
+}
+
+.singup-footer a{
+    color: #3498db;
+}
+
+/* .circle{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#ffffff4f, #ffffff);
+    position: absolute;
+}
+
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 100px;
+    right:50px;
+} */
